@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="logged-in-box auth0-box logged-in">
+    <h2>Welcome {{ user.username }}</h2>
+    <a class="btn btn-primary btn-lg btn-logout btn-block" href="/logout">Logout</a><br>
+    <a class="btn btn-primary btn-lg btn-block" href="/user/?format=json">List users</a><br>
+    <a class="btn btn-primary btn-lg btn-block" href="/groups/?format=json">List groups</a><br>
+    <a class="btn btn-primary btn-lg btn-block" href="/patient-record/?format=json">List Patient Records</a><br>
+</div>
+{% endblock %}

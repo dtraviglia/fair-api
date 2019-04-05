@@ -1,0 +1,8 @@
+bin
+lib
+*.sqlite3
+*.cfg
+*.json
+*.pyc
+*.idea
+*settings.py
